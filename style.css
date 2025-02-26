@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.heading{
+    height: 90px;
+    width: 100%;
+    background-color: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1)100%);
+    z-index: 1000;  
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+}
+.search-input{
+    height: 30px;
+    width: 290px;
+    padding-left: 10px;
+    border: none;
+    outline: none;
+    border-radius: 2px 0 0 2px;
+}
+.search{
+    display: flex;
+}
+.search-button{
+    height: 30px;
+    width: 50px;
+    padding-right: 5px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: rgb(81, 80, 80);
+    border-radius: 0 5px 5px 0;
+}
+.account{
+    display: flex;
+    gap: 5px;
+}
+.account p{
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+.help a{
+    color: rgb(3, 3, 73);
+    padding: 3px;
+    border-radius: 20px;
+    background-color: white;
+    padding: 5px 20px 5px 20px;
+}
+.profile p{
+    color: rgb(3, 3, 73);
+    padding: 3px;
+    border-radius: 20px;
+    background-color: white;
+    padding: 5px 20px 5px 20px;
+    cursor: pointer;
+}
+.help-body{
+    height: 500px;
+    width: 1280px;
+}
+.help-map-loc{
+    height: 290px;
+    width: 1270px;
+}
+.icon img{
+    border-radius: 50px;
+    padding-right: 5px;
+    padding-top: 5px;
+}
+.icon img:hover{
+    box-shadow: 0 0 5px white;
+}
+.row-home{
+    height: 250px;
+    width: 300px;
+    border-radius: 20px;
+}
+.rowhomemain p{ 
+    color: white;
+    padding-top: 5px;
+}
+.rowhomemain img:hover{
+    box-shadow: 0 0 5px white;
+}
+.rowhomemain2 img:hover{
+    box-shadow: 0 0 5px white;
+}
+.rowhomemain2 p{
+    color: white;
+}
+li{
+    color: white;
+    padding: 10px;
+    list-style: none;
+}
+.foot{
+    display: flex;
+    justify-content: space-around;
+    gap: 300px;
+    padding-left: 200px;
+}
+.foot-icon img{
+    height: 100px;
+    width: 100px;
+}
+.imgResize{
+    height: 200px;
+    width: 200px;
+    border-radius: 20px;
+    border: 1px solid white;
+}
+.imgResize:hover{
+    box-shadow: 0 0 5px white;
+}
+.rowhomemain{
+    position: absolute;
+    top: 120px;
+    right: 180px;
+    scale: 0.9;
+}
+.rowhomemain2{
+    position: absolute;
+    top: 420px;
+    right: 180px;
+    scale: 0.9;
+}
+video{
+    filter: blur(1px);
+    object-fit: cover;
+}
