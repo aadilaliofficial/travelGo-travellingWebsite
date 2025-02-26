@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        .parent{
+            width: 300px;
+            height: 300px;
+            margin: 10px auto;
+            position: relative;
+            overflow: hidden;
+            
+            
+        }
+        .box{
+            width: 300px;
+            height: 300px;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            color: white;
+            
+            
+        }
+        .card1{
+            background-color: red;
+            box-shadow: 1px 2px 1px black;
+
+        }
+        .card2{
+            background-color: blue;
+            transition: 1s;
+        }
+        .parent:hover .card2{
+            transform: translateX(100%);
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+    <div class="box card1">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum inventore temporibus beatae 
+        tempore sint dicta nobis tenetur dolore quibusdam
+         aperiam quia, provident ad ullam deserunt illum repellendus ratione corporis aspernatur.
+    </div>
+    <div class="box card2">
+        <img width="100%" height="100%" src="C:\Users\admin\OneDrive\Desktop\New folder\day16\870-200x300-blur_2-grayscale.jpg" alt="">
+    </div>
+</div>
+</body>
+</html>
